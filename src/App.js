@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Textarea from './textearea/textarea'
 import './App.css';
+import Markdown from "./markdown/markdown";
+import Navbar from "./navbar/navbar";
+
+
 
 class App extends Component {
+    state= {}//hay q definir el state
+    handleChange = (event) =>{
+        this.setState({value:event.target.value})
+    }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <Navbar className="nav" />
+          <Textarea value={this.state.value}  onChange={this.handleChange} />
+          <Markdown value={this.state.value}/>
       </div>
     );
   }

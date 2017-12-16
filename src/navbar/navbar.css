@@ -1,0 +1,10 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: palegreen;
+    height: 50px;
+    align-items: center;
+}
+nav li{
+    list-style-type: none;
+}
