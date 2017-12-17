@@ -3,15 +3,17 @@
     margin: 0;
     font-family: 'Nixie One', cursive;
 }
-.App{
-    width: 100%;
-    height: 100vh;
+body{
     background: linear-gradient(106deg, #04dda5, #e185d5, #dbe185, #85d4e1);
     background-size: 800% 800%;
 
     -webkit-animation: AnimationName 8s ease infinite;
     -moz-animation: AnimationName 8s ease infinite;
     animation: AnimationName 8s ease infinite;
+}
+.App{
+    width: 100%;
+    height: 95vh;
 
 }
 
