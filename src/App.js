@@ -4,6 +4,7 @@ import Textarea from './textearea/textarea'
 import './App.css';
 import Markdown from "./markdown/markdown";
 import Navbar from "./navbar/navbar";
+import Syntax from "./syntax/syntax";
 
 
 
@@ -27,48 +28,7 @@ class App extends Component {
     return (
       <div className="App">
           <Navbar className="nav" />
-          <div className="expli">
-              <h2>Syntax Guide</h2>
-              <code>
-                   <pre>
-                  # This is an {'<h1>'} tag <br/>
-                  ## This is an {'<h2>'} tag <br/>
-                  ###### This is an {'<h6>'}tag <br/>
-              </pre>
-                  <pre>
-                  *This text will be italic* <br/>
-                  _This will also be italic_ <br/>
-
-                  **This text will be bold** <br/>
-                  __This will also be bold__ <br/>
-
-                  _You **can** combine them_ <br/>
-              </pre>
-                  <pre>
-                      unorder items <br/>
-                      * Item 1  <br/>
-                      * Item 2  <br/>
-                      <span> </span>* Item 2a   <br/>
-                      <span> </span>* Item 2b   <br/>
-                  </pre>
-                  <pre>
-                      Ordered items  <br/>
-
-                    1. Item 1 <br/>
-                    1. Item 2 <br/>
-                    1. Item 3 <br/>
-                     <span> </span>1. Item 3a <br/>
-                      <span> </span>1. Item 3b <br/>
-                  </pre>
-                  <pre>
-                      Links <br/>
-
-                      http://github.com - automatic! <br/>
-                      {'[GitHub]'}(http://github.com)<br/>
-                  </pre>
-              </code>
-
-          </div>
+            <Syntax/>
           <section>
               <Textarea className="text-place" value={this.state.value}  onChange={this.handleChange} />
               <Markdown className="markdown" value={this.state.value} />

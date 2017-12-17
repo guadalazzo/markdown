@@ -1,0 +1,33 @@
+.expli{
+    height: 4%;
+    overflow: hidden;
+    width: 161px;
+
+    display: flex;
+    cursor: pointer;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin: auto;
+    background: rgba(4, 221, 165, 0.66);
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 20px 0 20px;
+}
+.expli.activo{
+    height: 22%;
+    width: 75%;
+}
+.expli h2{
+    padding-bottom: 10px;
+}
+.expli pre{
+    background: whitesmoke;
+    padding: 3px;
+}
+code{
+    display: flex;
+    font-size: 13px;
+    width: 100%;
+    justify-content: space-around;
+}
