@@ -6,7 +6,7 @@ import './markdown.css';
 class Markdown extends Component {
     render() {
         return (
-            <ReactMarkdown source={this.props.value} />
+            <ReactMarkdown className="mark" source={this.props.value} />
         );
     }
 }

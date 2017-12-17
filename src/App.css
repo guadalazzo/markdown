@@ -1,8 +1,74 @@
 *{
     padding:0;
     margin: 0;
+    font-family: 'Nixie One', cursive;
 }
 .App{
     width: 100%;
     height: 100vh;
+    background: linear-gradient(106deg, #04dda5, #e185d5, #dbe185, #85d4e1);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 35%}
+    50%{background-position:100% 66%}
+    100%{background-position:0% 35%}
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    height: 60%;
+    width: 75%;
+    margin: auto;
+}
+.text-place{
+    width: 50%;
+    height: 60%;
+}
+.mark{
+    width: 45%;
+    height:60%;
+    margin-left: 20px;
+}
+.expli{
+    height: 22%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    background: rgba(4, 221, 165, 0.66);
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 20px 0 20px;
+}
+.expli h2{
+    padding-bottom: 10px;
+}
+.expli pre{
+    background: whitesmoke;
+    padding: 3px;
+}
+code{
+    display: flex;
+    font-size: 13px;
+    width: 100%;
+    justify-content: space-around;
 }

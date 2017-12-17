@@ -7,8 +7,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav>
-                <li>Markdown </li>
-                <li>Freecodecamp project</li>
+                <h1>Markdown live preview</h1>
             </nav>
         );
     }
