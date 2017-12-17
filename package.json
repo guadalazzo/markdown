@@ -2,6 +2,7 @@
   "name": "markdown",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://guadalazzo.github.io/markdown/",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
