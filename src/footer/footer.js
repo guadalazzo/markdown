@@ -7,7 +7,9 @@ class Footer extends Component {
     render() {
         return (
             <footer>
-                <li>Made by <a href="https://guadalazzo.github.io"> Lupe</a></li>
+               <div>
+                   <li>Made by <a href="https://guadalazzo.github.io"> Lupe</a></li>
+               </div>
             </footer>
         );
     }

@@ -8,7 +8,7 @@ class Textarea extends Component {
         return (
             <div className="textarea">
 
-                <textarea rows="22" cols="45" onChange={this.props.onChange}>
+                <textarea onChange={this.props.onChange}>
                     {this.props.value}
                 </textarea>
             </div>

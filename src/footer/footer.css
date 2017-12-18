@@ -10,6 +10,17 @@ footer{
     height: 40px;
     font-style: italic;
 }
+footer div{
+    margin: auto;
+    width: 80%;
+    text-align: right;
+}
 footer li{
     padding-right: 1em;
+}
+@media (max-width: 700px) {
+
+    footer{
+        width: 80vw
+    }
 }
