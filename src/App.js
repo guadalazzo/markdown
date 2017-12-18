@@ -32,7 +32,7 @@ class App extends Component {
               <Markdown className="markdown" value={this.state.value} />
           </section>
           <Syntax/>
-        <Footer/>
+          <Footer/>
       </div>
     );
   }

@@ -21,6 +21,8 @@ footer li{
 @media (max-width: 700px) {
 
     footer{
-        width: 80vw
+        width: 100vw;
+        position: absolute;
+        bottom:0;
     }
 }
