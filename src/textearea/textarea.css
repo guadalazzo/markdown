@@ -1,3 +1,10 @@
 textarea{
     padding: 1em;
-}
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background: #7b4e5d;
+    -webkit-box-shadow: 0px 6px 69px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 69px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 69px -16px rgba(0,0,0,0.75);
+    }

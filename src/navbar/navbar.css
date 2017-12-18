@@ -1,13 +1,16 @@
 nav{
     display: flex;
     justify-content: space-around;
-    height: 12vh;
+    height: 7vh;
     align-items: center;
     font-size: 20px;
-    background: rgba(225, 133, 213, 0.61);
+    background: #f3a5e9;
     width: 85%;
     margin: 11px auto;
     border-radius: 0 20px;
+    -webkit-box-shadow: 0px 6px 69px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 69px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 69px -16px rgba(0,0,0,0.75);
 }
 nav li{
     list-style-type: none;

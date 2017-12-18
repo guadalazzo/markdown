@@ -4,7 +4,7 @@ import './App.css';
 import Markdown from "./markdown/markdown";
 import Navbar from "./navbar/navbar";
 import Syntax from "./syntax/syntax";
-
+import Footer from "./footer/footer";
 
 
 class App extends Component {
@@ -27,12 +27,12 @@ class App extends Component {
     return (
       <div className="App">
           <Navbar className="nav" />
-            <Syntax/>
           <section>
               <Textarea className="text-place" value={this.state.value}  onChange={this.handleChange} />
               <Markdown className="markdown" value={this.state.value} />
           </section>
-
+          <Syntax/>
+        <Footer/>
       </div>
     );
   }

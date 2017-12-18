@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 97vw;
+    padding: 1em;
+    list-style-type: none;
+    background: #85d4e1;
+    font-style: italic;
+}

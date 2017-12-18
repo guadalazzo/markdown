@@ -1,26 +1,42 @@
 .expli{
-    height: 4%;
+    height: 28px;
     overflow: hidden;
-    width: 161px;
-
+    width: 165px;
     display: flex;
     cursor: pointer;
     align-items: flex-start;
     flex-direction: column;
-
     margin: auto;
     background: rgba(4, 221, 165, 0.66);
     padding: 8px;
     margin-bottom: 15px;
     border-radius: 20px 0 20px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0px 6px 69px -16px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 69px -16px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 69px -16px rgba(0,0,0,0.75);
 }
+.expli:hover, expli:active,expli:focus{
+    border: 1px solid #01DDA2;
+    background: white;
+
+}
+
 .expli.activo{
     height: 22%;
     width: 75%;
+    background: rgba(4, 221, 165, 0.66);
+}
+.expli.activo h2:hover{
+    color: white ;
 }
 .expli h2{
     color: white;
     padding-bottom: 10px;
+}
+.expli h2:hover,.expli h2:focus, expli h2:active{
+    color: #01DDA2;
 }
 .expli pre{
     background: whitesmoke;
