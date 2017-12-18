@@ -4,9 +4,12 @@ footer{
     align-items: center;
     position: absolute;
     bottom: 0;
-    width: 97vw;
-    padding: 1em;
+    width: 100%;
     list-style-type: none;
     background: #85d4e1;
+    height: 40px;
     font-style: italic;
+}
+footer li{
+    padding-right: 1em;
 }

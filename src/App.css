@@ -13,7 +13,8 @@ body{
 .App{
     width: 100%;
     height: 95vh;
-
+    display: flex;
+    flex-direction: column;
 }
 
 @-webkit-keyframes AnimationName {
@@ -35,9 +36,10 @@ section{
     display: flex;
     justify-content: space-between;
     align-content: flex-end;
-    height: 60%;
-    width: 75%;
+    height: fit-content;
+    width: 85%;
     margin: auto;
+    padding-bottom: 2em;
 }
 .text-place{
     width: 50%;
@@ -47,7 +49,7 @@ section{
     width: 45%;
     background: rgba(255, 255, 255, 0.44);
     padding: 4px 1.4em;
-    height: 94%;
+    height: fit-content;
     margin-left: 20px;
 
 }
