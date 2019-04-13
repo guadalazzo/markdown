@@ -3,7 +3,7 @@
 ---
  
 #### Created by: 
-[Guadalupe Jazmin Lazzo](https://guadalazzo.github.io 'Guadalupe Lazzo's Website')
+[Guadalupe Jazmin Lazzo](https://guadalazzo.github.io)
 
 ---
 
